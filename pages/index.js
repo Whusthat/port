@@ -1,11 +1,11 @@
 import Image from "next/image";
-import PageTemplate from "../public/components/Page-template";
-import Head from "next/head";
+import { Fragment } from "react/cjs/react.production.min";
+import PageHeader from "../public/components/PageHeader";
 
 export default function Home() {
   return (
-    <PageTemplate 
-      title='Portfolio 2'
-    />
+    <Fragment>
+      <PageHeader title='hi'/>
+    </Fragment>
   );
 }

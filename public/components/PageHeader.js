@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-function PageTemplate(props) {
+function PageHeader(props) {
   return (
     <Head>
       <title>{props.title}</title>
@@ -9,4 +9,4 @@ function PageTemplate(props) {
   );
 }
 
-export default PageTemplate;
+export default PageHeader;
